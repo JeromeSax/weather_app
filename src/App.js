@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Weather from "./components/Weather";
 
 function App() {
+  // const apiKey = '7f186a28518e67147dcb91fe22122c6a';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Weather />
+    </>
   );
 }
 
